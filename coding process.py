@@ -70,7 +70,7 @@ print(label.shape)
 
 #Flipping the label
 
-col_vector = np.column_stack([row_vector])
+col_vector = np.column_stack([label])
 label = col_vector
 print(label.shape)
 
